@@ -1,0 +1,154 @@
+*{
+
+}
+
+body
+{
+    font-family: "PT Sans", Arial, sans-serif;
+    background-image: url(images/background.jpg);
+}
+
+.full-text-block
+{
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 7%;
+    width: 86%;
+    font-size: 12px;
+    margin-right: 7%;
+}   
+
+.start-text-block
+{
+    background-color: #dbdbdb;
+    padding-left: 12px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.font-red
+{
+    color:#f0433f;
+}
+
+.light-red
+{
+    background-color: #f0433f;
+    height: 15px;
+    width:60%;
+}
+
+.light-gray
+{
+    background: #dcdcdc;
+    width:45%;
+    margin-left: 37px;
+    height: 15px;
+}
+
+.main-block
+{
+    box-shadow: 8px 8px 20px rgba(122,122,122,1);
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-top: 3%;
+    height: 75%;
+    min-width: 500px;
+    min-height: 760px;
+    background-color:white;
+    padding-top: 3%;
+    box-sizing: border-box;
+}
+
+.left-col
+{
+    float: left;
+    width:55%;
+}
+
+.right-col
+{
+    float: left;
+    margin-left:5%;
+    width:40%;
+}
+
+.logo
+{
+    background: url(images/freepick.png);
+    background-repeat: no-repeat;
+    overflow: hiden;
+    min-height: 60px;
+    min-width: 250px;
+    margin-top: 20px;
+    background-position: center;
+    background-size: 300px;
+}
+
+.red-block
+{
+    background-color: #ef433f;
+    height: 100px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.white-block
+{
+    background-color: white;
+    margin-left: 25%; 
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 65%;
+    margin-right: 10%;
+    height: 78%;    
+}
+
+.author
+{
+    font-size: 25px;
+}
+
+dl
+{
+    margin-left: 22px;
+}
+
+dt 
+{
+    display: list-item;
+    list-style-image: url(images/rhombus.png);
+    margin-top: 1em; 
+}
+
+dt 
+{ 
+    float: left; 
+    width: 62px; 
+}
+
+dd 
+{ 
+    margin-left: 62px;
+    padding-top: 15px;  
+}
+
+.left-text
+{
+    float: left;
+    width:35%;
+    font-size: 11.5px;
+}
+
+.right-text
+{
+    float: left;
+    margin-left:5%;
+    width:60%;
+    font-size: 11.5px;
+}
+
+.float-margin-left{
+    float:left;
+    margin-top: 10px;
+}
