@@ -1,0 +1,141 @@
+body{
+    margin:auto;
+    width: 80%;
+}
+
+h1, h3{
+    margin:0px;
+}
+
+h1{
+    color:#888;
+}
+h3{
+    color:#aaa;
+}
+
+.epam-logo{
+    float: left;
+    background: url(logo_gray-blue_80px.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+}
+
+header{
+    background-color: lightgray;
+}
+
+
+.header-sign{
+    float: left;
+    width: 79%;
+}
+
+.clearfix{
+    clear: left;
+}
+
+.header-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header-menu li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-menu li:hover {
+    background-color: #111;
+}
+
+.content{
+    margin-top:1%;
+}
+
+.leftbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+}
+
+.leftbar li {
+    width: 100%;
+    display: block;
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.leftbar li:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+.leftbar{
+    float:left;
+    width:30%;
+}
+
+.menu-panel{
+    border:5px solid gray;
+}
+
+.rightbar{
+    float:left;
+    margin-left:3%;
+    width:60%;
+}
+
+.data-table{
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.data-table{
+    border:double black;
+    text-align: left;
+}
+.data-table th{
+    background-color: lightgray;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.data-table td{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.data-table td:first-child{
+    border-left:0px;
+}
+.data-table th:first-child{
+    border-left:0px;
+}
+.data-table tr:last-child td{
+    border-bottom: 0px;
+}
+
+footer{
+    position:fixed;
+    left:10%;
+    bottom:0px;
+    height:30px;
+    width: inherit;
+    margin-top:20px;
+    background: linear-gradient(to bottom, #fefcea, lightgray);
+    text-align: center;
+}

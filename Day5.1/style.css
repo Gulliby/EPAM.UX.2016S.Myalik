@@ -1,0 +1,7 @@
+@media print and (max-device-width: 600px) and (max-device-height :400px) {
+    div {width: 1200px;}
+} 
+
+@media screen and (max-device-width: 600px) and (max-device-height :400px) {
+    div {width: 1900px;}
+}

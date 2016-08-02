@@ -1,0 +1,26 @@
+.main-table{
+    font-family: Verdana,sans-serif;
+    margin-left:20%;
+    width:60%;
+    border-bottom:1px solid #ccc;
+}
+
+.main-header{
+    background-color: lightgray;
+}
+
+.epam{
+    color:blue;
+}
+
+.menu-header{
+    background-color:#3F3737;
+    color:white;
+}
+
+.menu-header td:hover
+{
+    color:black;
+    background-color:white;
+}
+

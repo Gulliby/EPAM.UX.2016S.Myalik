@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+     <div class="form">
+         <h3>Регистрация</h3>
+        <form action="">            
+            <div class="bordered">
+                <form>
+                    <fieldset>
+                        <label class="form-label" value="login">E-mail</label>
+                        <input class="form-input" type="text" placeholder="test@mail.com"/>
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-label" value="password">Логин</label>
+                        <input class="form-input" type="text"/>
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-label" value="email">Пароль</label>
+                        <input class="form-input" type="text"/>
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-label" value="sex">Пол</label>
+                        <input type="radio" name="sex"/>Женщина
+                        <input type="radio" checked name="sex"/>Мужчина
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-label" value="phone">Настоящее имя</label>
+                        <input class="form-input" type="text"/>
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-label" value="birth">Дата рождения</label>
+                        <input class="form-input" type="date"/>
+                    </fieldset>
+                    <fieldset>
+                        <label class="form-label" value="car">Место жительства</label>
+                            <select class="form-input">
+                                <option value="volvo">Минск</option>
+                                <option value="saab">Не Минск</option>
+                            </select>
+                    </fieldset>
+                    <fieldset class="form-button">
+                        <button type="submit" value="Submit">Регистрация</button>
+                    </fieldset>
+                </form>
+            </div>
+        </form>
+    </div>
+ </body>
+</html>

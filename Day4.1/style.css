@@ -1,0 +1,18 @@
+
+   .layer1, .layer3 {
+    font-size: 50px; /* Размер шрифта в пикселах */
+    color: #000080; /* Синий цвет текста */
+   }
+   .layer2, .layer4 {
+    margin-top: -55px; /* Сдвигаем текст вверх */
+    margin-left: 5px; /* Сдвигаем текст вправо */
+    color: #ffa500; /* Оранжевый цвет текста */
+    font-size:70px; 
+   }
+   .layer1 { z-index: 1; }
+   .layer2 { z-index: 0; }
+   .layer3 { z-index: 10; }
+   .layer4 { z-index: 20; }
+   .layer1, .layer2, .layer3, .layer4 {
+    position: relative; /* Относительное позиционирование */
+   } 

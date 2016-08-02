@@ -1,0 +1,94 @@
+body {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	background-repeat: repeat;
+	background-image: url(fon.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	line-height: 1.6;
+}
+
+h2{
+	color:gray;
+}
+
+.main {
+	margin-top: 20px;
+	padding: 20px;
+	border: medium solid #FEA745;
+	margin-right: 20%;
+	margin-left: 20%;
+	background-color: #FAF5D7;
+	-moz-border-radius: 30px;     /* mozilla 1.5 */
+	-webkit-border-radius: 30px;  /* safari 3 */
+	-khtml-border-radius: 30px;   /* Konqueror */
+	border-radius: 30px;          /* CSS3 */
+	font-size: 85%;
+}
+.enter{
+	text-indent: 30px;
+}
+.main_img {
+	width: 300px; 
+	height:345px;
+	background-image:url(povesti_i_rasskazy_dlja_detej_zag.png);
+	float: left;
+	margin-top: 30px;
+	margin-right: 40px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+.first-letter{
+	color:red;
+}
+
+.header-text{
+	font-family: arial, serif;
+	font-size: 25px;
+	color:blue;	
+}
+
+.funny-text{
+	font-size: 1rem;
+	font-family: verdana, sans-serif;
+	font-weight: 20;
+	font-style: oblique;
+}
+
+.super-funny-text{
+	font-size:0.15in;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: italic;
+}
+
+.mark {
+	color: #666;
+}
+
+.list{
+	margin-left:30px;
+}
+
+.list h3{
+	color: gray;
+
+}
+
+.list ul li a{
+	color: darkorange;
+	text-decoration: none;
+}
+
+.list ul li a:hover{
+	color: orangered;
+	text-decoration: underline;
+}
+
+.back{
+	height:60px;
+	background-repeat: no-repeat;
+	background-color:yellow;
+	background-position: right top;
+	background-image:url(mir_skazki_glavnaja.png);
+}
