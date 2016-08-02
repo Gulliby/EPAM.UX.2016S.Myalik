@@ -8,69 +8,80 @@ body
     background-image: url(images/background.jpg);
 }
 
+.width247{
+    width:247.6px;
+}  
+
+.width167{
+    width: 167.4px;
+}
+
 .full-text-block
 {
-    margin-top: 15px;
     display: inline-block;
-    margin-left: 7%;
-    width: 86%;
-    font-size: 12px;
-    margin-right: 7%;
+    margin-left: 26px;
+     
+    font-size: 10.08px;
+    margin-right: 14.8px;
+    
 }   
 
 .start-text-block
 {
+    width: 100%;       
     background-color: #dbdbdb;
-    padding-left: 12px;
+    padding-left: 10.8px;
     font-weight: bolder;
     margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.text-block{
+    width: 100%;
 }
 
 .font-red
 {
     color:#f0433f;
+
 }
 
 .light-red
 {
     background-color: #f0433f;
-    height: 15px;
+    height: 100%;
     width:60%;
 }
 
 .light-gray
 {
     background: #dcdcdc;
-    width:45%;
-    margin-left: 37px;
-    height: 15px;
+    width:100%;
+    height: 10px;
 }
 
 .main-block
 {
     box-shadow: 8px 8px 20px rgba(122,122,122,1);
-    margin-left: 34%;
-    margin-right: 34%;
+    margin: auto;
     margin-top: 3%;
-    height: 75%;
-    min-width: 500px;
-    min-height: 760px;
+    width: 496px;
+    height: 701.6px;
     background-color:white;
-    padding-top: 3%;
+    padding-top: 20px;
     box-sizing: border-box;
 }
 
 .left-col
 {
     float: left;
-    width:55%;
+    width:285.6px;
 }
 
 .right-col
 {
     float: left;
-    margin-left:5%;
-    width:40%;
+    width:210.4px;
 }
 
 .logo
@@ -88,8 +99,8 @@ body
 .red-block
 {
     background-color: #ef433f;
-    height: 100px;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -118,7 +129,7 @@ dt
 {
     display: list-item;
     list-style-image: url(images/rhombus.png);
-    margin-top: 1em; 
+    text-align: center;
 }
 
 dt 
@@ -127,28 +138,116 @@ dt
     width: 62px; 
 }
 
+
 dd 
 { 
     margin-left: 62px;
-    padding-top: 15px;  
+    padding-top: 7px;  
 }
 
 .left-text
 {
     float: left;
-    width:35%;
-    font-size: 11.5px;
+    width:65.6px;
+    font-size: 10.08px;
 }
 
 .right-text
 {
     float: left;
-    margin-left:5%;
-    width:60%;
-    font-size: 11.5px;
+    width:101.8px;
+    font-size: 10.08px;
 }
 
 .float-margin-left{
     float:left;
     margin-top: 10px;
+}
+
+.big-logo
+{
+    float: left;
+    width: 121px;
+    height: 91.6px;
+}
+
+.name-lastname{
+    float: left;
+    margin-left:6px;
+    width: 152.6px;
+}
+
+.name-lastname p{
+    margin: 0px;
+}
+
+.full-logo-name{
+    width: 100%;
+    height: 91.6px;
+}
+
+.margin-top50{
+    margin-top: 49.6px;
+}
+
+.margin-top24{
+    margin-top: 24px;   
+}
+
+.font-size9{
+    font-size:9.27px;
+}
+
+.list-block{
+    width: 100%;
+}
+
+.left-list-block{
+    float:left;
+    width: 69.6px;
+
+}
+.right-list-block{
+    float:left;
+    width: 178px;
+}
+
+.text-block p{
+    margin: 0px;
+}
+
+.margin-top10{
+    margin-top: 10px;
+}
+
+.skill{
+    width:100%;  
+}
+
+.skill-left{
+    float:left;
+    width: 88.6px;
+    margin-top: 10px; 
+}
+
+.skill-right{
+    float:left;
+    width: 78.8px;
+    margin-top: 10px; 
+}
+
+.footer-item{
+    width:32%;
+    float:left;
+    text-align: center;
+}
+
+
+.footer-text{
+    vertical-align: middle;
+    font-size: 15px ; 
+}
+.footer{
+    clear: left;
+    width: 100%;
 }
