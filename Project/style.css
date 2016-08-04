@@ -20,9 +20,8 @@ body
     float:left;
     overflow: hidden;
     margin-left: 5.24%;  
-    font-size: 10px;
-    margin-right: 2.47%;
-    
+    margin-right: 2.47%; 
+    margin-top: 16px; 
 }   
 
 .font-red
@@ -34,7 +33,6 @@ body
 {
     background-color: #f0433f;
     height: 100%;
-    width:60%;
 }
 
 .light-gray
@@ -54,8 +52,12 @@ body
     padding-top: 20px;
     box-sizing: border-box;
     overflow: hidden;
+    
 }
 
+.full-block-content{
+    min-height: calc(100vh - 120px);
+}
 
 .logo
 {
@@ -103,7 +105,7 @@ dl.diamond-list dt
 {
     text-align: center;
     float: left; 
-    width: 90px;
+    width: 46.4%;
 }
 
 dl.diamond-list dt:before{
@@ -138,7 +140,7 @@ dl.diamond-list dd
 }
 
 .margin-left30{
-    margin-left:30.5px;
+    margin-left:6.203%;
 }
 
 .big-logo
@@ -148,11 +150,14 @@ dl.diamond-list dd
     height: 91.6px;
 }
 
+.big-logo a{
+    text-decoration: none;
+}
+
 .margin-top40
 {
     margin-top:40px;
 }
-
 
 .name-lastname p
 {
@@ -162,7 +167,7 @@ dl.diamond-list dd
 .full-logo-name
 {
     float: left;
-    width:285.6px;
+    width: 58.522%;
     overflow: hidden;
 }
 
@@ -171,38 +176,67 @@ dl.diamond-list dd
 }
 
 .skill{
-    width:100%;  
+    width:100%;
+    overflow: hidden;
+    margin-top: 10px;   
 }
 
 .skill-left{
     float:left;
-    width: 88.6px;
-    margin-top: 10px; 
+    width: 52.82%; 
 }
 
 .skill-right{
     float:left;
-    width: 78.8px;
-    margin-top: 10px; 
+    width: 47.1856%;
+   
 }
 
 .footer-item{
-    width:32%;
+    width:33%;
     float:left;
     text-align: center;
+    vertical-align: top;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 
 .footer-text{
-    vertical-align: middle;
-    font-size: 12px ; 
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-text span{
+    vertical-align: top;
+}
+
+.footer-text a{
+    text-decoration: none;
+    color: black;
+}
+
+.first-footer-item:before{
+    content: url(images/twitter-logo.jpg);
+    transform: scale(.5);
+    margin-right: 10px;
+}
+
+
+.second-footer-item:before{
+    content: url(images/phone-logo.jpg);
+    transform: scale(.5);
+    margin-right: 10px;
+}
+
+.third-footer-item:before{
+    content: url(images/mail-logo.jpg);
+    transform: scale(.5);
+    margin-right: 10px;
 }
 
 .footer{
     overflow: hidden;
-    
     width: 100%;
 }
 
@@ -222,9 +256,11 @@ dl.diamond-list dd
     width: 152.6px;
 }
 
-.name-lastname h1,h2
+h1,h2,h3,h4,h5
 {
-    margin: 0px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin:0px;
 }
 
 .name-lastname h1
@@ -245,10 +281,6 @@ dl.diamond-list dd
     overflow: hidden;
 }
 
-.text-block h4,h5
-{
-    margin: 0px; 
-}
 
 .text-block h4
 {
@@ -265,4 +297,64 @@ dl.diamond-list dd
 .text-block p{
     margin: 0px;
     font-weight: 600;
+}
+
+.text-block-row{
+    font-size:9px;
+}
+
+.input-block{
+    width: 102px;
+    color: black;
+    font-weight: normal;
+    background:white;
+    border:none;
+    font-size:8.9px;
+}
+
+.main-label{
+    display: inline-block;
+    width:60px;
+    font-weight: bold;
+}
+
+ul.progress-list{
+    list-style-type: none;
+    padding: 0px;    
+}
+
+.width20{
+    width: 20%;
+}
+
+.width30{
+    width: 30%;
+}
+
+.width40{
+    width: 40%;
+}
+
+.width50{
+    width: 50%;
+}
+
+.width60{
+    width: 60%;
+}
+
+.width70{
+    width: 70%;
+}
+
+.width80{
+    width: 80%;
+}
+
+.width90{
+    width: 90%;
+}
+
+.width100{
+    width: 100%;
 }

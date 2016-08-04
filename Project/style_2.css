@@ -1,0 +1,9 @@
+.width-mid
+{
+    width: 42.29%;
+}
+
+.full-text-block:nth-child(2n+3) 
+{
+    clear: left;
+}
