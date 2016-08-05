@@ -2,7 +2,6 @@ body
 {
     font-family: "PT Sans", Arial, sans-serif;
     background-image: url(images/background.jpg);
-    word-wrap: break-word;
 }
 
 .width-left
@@ -159,20 +158,11 @@ dl.diamond-list dd
     margin-top:40px;
 }
 
-.name-lastname p
-{
-    margin: 0px;
-}
-
 .full-logo-name
 {
     float: left;
     width: 58.522%;
     overflow: hidden;
-}
-
-.text-block p{
-    margin: 0px;
 }
 
 .skill{
@@ -201,6 +191,9 @@ dl.diamond-list dd
     margin-top: 20px;
 }
 
+footer{
+    text-align: center;
+}
 
 .footer-text{
     font-size: 14px;
@@ -218,20 +211,17 @@ dl.diamond-list dd
 
 .first-footer-item:before{
     content: url(images/twitter-logo.jpg);
-    transform: scale(.5);
     margin-right: 10px;
 }
 
 
 .second-footer-item:before{
     content: url(images/phone-logo.jpg);
-    transform: scale(.5);
     margin-right: 10px;
 }
 
 .third-footer-item:before{
     content: url(images/mail-logo.jpg);
-    transform: scale(.5);
     margin-right: 10px;
 }
 
@@ -357,4 +347,15 @@ ul.progress-list{
 
 .width100{
     width: 100%;
+}
+
+.auto-mid
+{   
+    width:300px;
+    display: inline-block;
+}
+
+p{
+    margin:0px;
+    word-wrap: break-word;
 }
