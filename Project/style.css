@@ -120,23 +120,9 @@ dl.diamond-list dt:before{
 
 dl.diamond-list dd 
 { 
-    margin-left: 75px;
     overflow: hidden;   
 }
 
-.left-text
-{
-    float: left;
-    width:65.6px;
-    font-size: 9px;
-}
-
-.right-text
-{
-    float: left;
-    width:101.8px;
-    font-size: 9px;
-}
 
 .margin-left30{
     margin-left:6.203%;

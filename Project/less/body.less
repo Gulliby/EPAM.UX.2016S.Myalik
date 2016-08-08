@@ -1,0 +1,280 @@
+@width8: 496px;
+@width10: 100%; 
+@diamond-wh:11px;
+@custom-red:#ef4541;
+
+@media (min-width: 800px) {
+    .container{
+        max-width: 496px;
+    }
+}
+
+body {
+	background-image: url(../images/background.jpg);
+	font-family: "PT Sans", Arial, sans-serif;
+}
+
+.main-block {
+	background-color:white;
+	box-shadow: 8px 8px 20px rgba(122,122,122,1);
+	box-sizing: border-box;
+	margin-top: 3%;
+	margin: auto;
+	overflow: hidden;
+	padding-top: 20px;
+	width: @width8;
+    margin-top: 20px;
+}
+
+.width-left {
+	width:50.812%;
+}
+
+.width-right {
+	width: 33.75%;
+}
+
+.full-text-block {
+	margin-top: 15px;
+	h3 {
+		background-color: #dbdbdb;
+		font-size:10px;
+		font-weight: bolder;
+		margin-bottom: 8px;
+		padding-left: 10.8px;
+	}
+}
+.font-red {
+	color:@custom-red;
+}
+
+
+.full-block-content {
+	min-height: calc(100vh - 120px);
+}
+
+.logo {
+	background: url(../images/freepick.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 60px;
+    min-width: 250px;
+    margin-top: 20px;
+    background-position: center;
+    background-size: 300px;
+}
+
+.red-block {
+	background-color: @custom-red;
+	height: 100%;
+	overflow: hidden;
+	width: @width10;
+}
+
+.white-block {
+	background-color: white;
+	height: 78%;
+	margin-bottom: 8%;
+	margin-left: 25%;
+	margin-right: 10%;
+	margin-top: 8%;
+	width: 65%;
+}
+
+dl.diamond-list {
+	margin: 0px;
+	overflow: hidden;
+	dt {
+		float: left;
+		text-align: center;
+		width: 46.4%;
+        margin-top: 10px;
+	}
+	dd {
+		overflow: hidden;
+        margin-top: 10px;
+	}
+}
+
+.diamond {
+	background: @custom-red;
+	height: @diamond-wh;
+	margin: 4px 5px 0px 10px;
+	transform-origin: 0 100%;
+	transform: rotate(-45deg);
+	width: @diamond-wh;
+}
+
+.big-logo {
+	float: left;
+	height: 91.6px;
+	width: 121px;
+	a {
+		text-decoration: none;
+	}
+}
+
+.margin-top40 {
+	margin-top:40px;
+}
+.full-logo-name {
+	overflow: hidden;
+}
+.skill {
+	margin-top: 10px;
+	overflow: hidden;
+	width:@width10;
+}
+.skill-left {
+	float:left;
+	width: 52.82%;
+}
+.skill-right {
+	float:left;
+	width: 47.1856%;
+}
+.skill-label {
+	display: inline-block;
+	font-weight: bold;
+}
+.footer-item {
+	float:left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	vertical-align: top;
+	width:33%;
+}
+
+footer {
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 14px;
+	font-weight: 600;
+	span {
+		vertical-align: top;
+	}
+	a {
+		color: black;
+		text-decoration: none;
+	}
+}
+
+.custom-footder-item(@main-url: url(../images/twitter-logo.jpg)){
+    content: @main-url;
+    margin-right: 10px;
+}
+
+.first-footer-item {
+	&:before {
+		.custom-footder-item(url(../images/twitter-logo.jpg));
+	}
+}
+.second-footer-item {
+	&:before {
+		.custom-footder-item(url(../images/phone-logo.jpg));
+	}
+}
+.third-footer-item {
+	&:before {
+		.custom-footder-item(url(../images/mail-logo.jpg));
+	}
+}
+.footer {
+	overflow: hidden;
+	width: @width10;
+}
+.name-lastname {
+	float: left;
+	margin-left:5px;
+	h1 {
+		font-size: 22.4px;
+		font-weight: bold;
+	}
+	h2 {
+		font-size: 18px;
+		font-weight: normal;
+	}
+}
+
+h1,h2,h3,h4,h5  {
+	margin:0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-block {
+	font-size:9px;
+	overflow: hidden;
+	h4 {
+		font-size: 10px;
+		font-weight: 520;
+	}
+	h5 {
+		font-size:10px;
+		font-weight: 520;
+	}
+	p {
+		font-weight: 600;
+		margin: 0px;
+	}
+}
+
+.text-block-row {
+	font-size:9px;
+}
+
+.input-block {
+	background:white;
+	border:none;
+	color: black;
+	font-size:8.9px;
+	font-weight: normal;
+}
+
+.main-label {
+	display: inline-block;
+	font-weight: bold;
+	width:35%;
+}
+
+ul.progress-list {
+	list-style-type: none;
+	margin-top: 0px;
+	padding: 0px;
+	li {
+		&:first-child {
+			margin-top: 0px;
+		}
+	}
+}
+
+.auto-mid {
+	display: inline-block;
+	width:300px;
+}
+
+p {
+	margin:0px;
+	word-wrap: break-word;
+}
+.no-padding {
+	padding:0px;
+}
+
+.no-margin-and-bottom {
+	margin-bottom: 10px;
+	margin: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-progress-bar {
+	border-radius: 0px;
+	height: 10px;
+	margin-bottom: 0px;
+}
