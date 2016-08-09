@@ -1,7 +1,12 @@
 @width8: 496px;
 @width10: 100%; 
 @diamond-wh:11px;
-@custom-red:#ef4541;
+@custom-red:#d9534f;
+@custom-gray:#dbdbdb;
+@margin-whatever:20px;
+@to-zero:0px;
+@shadow-boreder:8px;
+@main-block-padding-margin:20px;
 
 @media (min-width: 800px) {
     .container{
@@ -16,14 +21,14 @@ body {
 
 .main-block {
 	background-color:white;
-	box-shadow: 8px 8px 20px rgba(122,122,122,1);
+	box-shadow: @shadow-boreder @shadow-boreder 20px rgba(122,122,122,1);
 	box-sizing: border-box;
 	margin-top: 3%;
 	margin: auto;
 	overflow: hidden;
-	padding-top: 20px;
+	padding-top: @main-block-padding-margin;
 	width: @width8;
-    margin-top: 20px;
+    margin-top: @main-block-padding-margin;
 }
 
 .width-left {
@@ -34,23 +39,9 @@ body {
 	width: 33.75%;
 }
 
-.full-text-block {
-	margin-top: 15px;
-	h3 {
-		background-color: #dbdbdb;
-		font-size:10px;
-		font-weight: bolder;
-		margin-bottom: 8px;
-		padding-left: 10.8px;
-	}
-}
-.font-red {
-	color:@custom-red;
-}
-
 
 .full-block-content {
-	min-height: calc(100vh - 120px);
+	min-height: calc(~"100vh - 120px");
 }
 
 .logo {
@@ -59,7 +50,7 @@ body {
     overflow: hidden;
     min-height: 60px;
     min-width: 250px;
-    margin-top: 20px;
+    margin-top: @margin-whatever;
     background-position: center;
     background-size: 300px;
 }
@@ -82,7 +73,7 @@ body {
 }
 
 dl.diamond-list {
-	margin: 0px;
+	margin: @to-zero;
 	overflow: hidden;
 	dt {
 		float: left;
@@ -99,7 +90,7 @@ dl.diamond-list {
 .diamond {
 	background: @custom-red;
 	height: @diamond-wh;
-	margin: 4px 5px 0px 10px;
+	margin: 4px 5px @to-zero 10px;
 	transform-origin: 0 100%;
 	transform: rotate(-45deg);
 	width: @diamond-wh;
@@ -114,33 +105,14 @@ dl.diamond-list {
 	}
 }
 
-.margin-top40 {
-	margin-top:40px;
-}
 .full-logo-name {
 	overflow: hidden;
 }
-.skill {
-	margin-top: 10px;
-	overflow: hidden;
-	width:@width10;
-}
-.skill-left {
-	float:left;
-	width: 52.82%;
-}
-.skill-right {
-	float:left;
-	width: 47.1856%;
-}
-.skill-label {
-	display: inline-block;
-	font-weight: bold;
-}
+
 .footer-item {
 	float:left;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: @margin-whatever;
+	margin-top: @margin-whatever;
 	text-align: center;
 	vertical-align: top;
 	width:33%;
@@ -148,18 +120,6 @@ dl.diamond-list {
 
 footer {
 	text-align: center;
-}
-
-.footer-text {
-	font-size: 14px;
-	font-weight: 600;
-	span {
-		vertical-align: top;
-	}
-	a {
-		color: black;
-		text-decoration: none;
-	}
 }
 
 .custom-footder-item(@main-url: url(../images/twitter-logo.jpg)){
@@ -172,59 +132,30 @@ footer {
 		.custom-footder-item(url(../images/twitter-logo.jpg));
 	}
 }
+
 .second-footer-item {
 	&:before {
 		.custom-footder-item(url(../images/phone-logo.jpg));
 	}
 }
+
 .third-footer-item {
 	&:before {
 		.custom-footder-item(url(../images/mail-logo.jpg));
 	}
 }
+
 .footer {
 	overflow: hidden;
 	width: @width10;
 }
-.name-lastname {
-	float: left;
-	margin-left:5px;
-	h1 {
-		font-size: 22.4px;
-		font-weight: bold;
-	}
-	h2 {
-		font-size: 18px;
-		font-weight: normal;
-	}
-}
 
 h1,h2,h3,h4,h5  {
-	margin:0px;
+	margin:@to-zero;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
 
-.text-block {
-	font-size:9px;
-	overflow: hidden;
-	h4 {
-		font-size: 10px;
-		font-weight: 520;
-	}
-	h5 {
-		font-size:10px;
-		font-weight: 520;
-	}
-	p {
-		font-weight: 600;
-		margin: 0px;
-	}
-}
-
-.text-block-row {
-	font-size:9px;
-}
 
 .input-block {
 	background:white;
@@ -234,47 +165,24 @@ h1,h2,h3,h4,h5  {
 	font-weight: normal;
 }
 
-.main-label {
-	display: inline-block;
-	font-weight: bold;
-	width:35%;
-}
-
 ul.progress-list {
 	list-style-type: none;
-	margin-top: 0px;
-	padding: 0px;
+	margin-top: @to-zero;
+	padding: @to-zero;
 	li {
 		&:first-child {
-			margin-top: 0px;
+			margin-top: @to-zero;
 		}
 	}
 }
 
-.auto-mid {
-	display: inline-block;
-	width:300px;
+.progress {
+  margin-bottom: @to-zero;
+  border-radius: @to-zero;
+  background-color: @custom-gray;
 }
-
-p {
-	margin:0px;
-	word-wrap: break-word;
-}
-.no-padding {
-	padding:0px;
-}
-
-.no-margin-and-bottom {
-	margin-bottom: 10px;
-	margin: 0px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.main-progress-bar {
-	border-radius: 0px;
-	height: 10px;
-	margin-bottom: 0px;
+.progress-bar {
+    &.progress-bar-danger{
+      background-color: @custom-red;
+    }
 }
