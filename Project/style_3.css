@@ -35,7 +35,7 @@ body {
   padding-left: 10.8px;
 }
 .font-red {
-  color: #ef4541;
+  color: #d9534f;
 }
 .full-block-content {
   min-height: calc(100vh - 120px);
@@ -51,7 +51,7 @@ body {
   background-size: 300px;
 }
 .red-block {
-  background-color: #ef4541;
+  background-color: #d9534f;
   height: 100%;
   overflow: hidden;
   width: 100%;
@@ -80,7 +80,7 @@ dl.diamond-list dd {
   margin-top: 10px;
 }
 .diamond {
-  background: #ef4541;
+  background: #d9534f;
   height: 11px;
   margin: 4px 5px 0px 10px;
   transform-origin: 0 100%;
@@ -234,8 +234,13 @@ p {
 .text-center {
   text-align: center;
 }
-.main-progress-bar {
+
+.progress {
+  margin-bottom: 0px;
   border-radius: 0px;
   height: 10px;
-  margin-bottom: 0px;
+  background-color: #dbdbdb;
+}
+.progress-bar.progress-bar-danger {
+  background-color: #d9534f;
 }
